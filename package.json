@@ -1,0 +1,32 @@
+{
+  "name": "tinyone-220819",
+  "version": "1.0.0",
+  "description": "junior test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBegma/tinyone-220819.git"
+  },
+  "author": "behma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexBegma/tinyone-220819/issues"
+  },
+  "homepage": "https://github.com/AlexBegma/tinyone-220819#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
