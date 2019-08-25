@@ -1,3 +1,81 @@
-@import "../../node_modules/normalize.css/normalize";
-// @import "../../node_modules/slick-carousel/slick/slick";
-// @import "../../node_modules/magnific-popup/dist/magnific-popup";
+@import "vars";
+@import "libs";
+@import "fonts";
+
+
+// font-family: 'Open Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	min-width: 320px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+	background-color: #fcdb00;
+	height: 150px;
+}
+
+.navbar-light {
+	padding-top: 60px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-image {
+	margin-right: 10px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	line-height: 20px;
+	color: #010101;
+	font-weight: 700;
+}
+
+.nav-item {
+	margin-right: 70px;
+}
+
+.nav-link {
+	font-size: 22px;
+	line-height: 20px;
+	color: #010101;
+	font-family: "PT Sans", sans-serif;
+	font-weight: 700;
+}
+
+.nav-item:last-child {
+	margin-right: 0;
+}
+
+.nav-link:hover {
+	transform: scale(1.2);
+	transition: all .4s;
+}
+
+
+
+
+
+
+
+@import "media";
