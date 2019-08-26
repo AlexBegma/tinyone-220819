@@ -1,7 +1,7 @@
 @import "vars";
 @import "libs";
 @import "fonts";
-
+@import "media";
 
 // font-family: 'Open Sans', sans-serif;
 
@@ -15,9 +15,11 @@
 
 body {
 	min-width: 320px;
+	max-width: 1924px;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+	margin: 0 auto;
 }
 
 img {
@@ -72,10 +74,145 @@ header {
 	transition: all .4s;
 }
 
+// slider
+.bd-example {
+	min-height: 590px;
+	background-color: #fcdb00;
+}
 
+.slider {
+	min-height: 550px;
+}
 
+.carousel-indicators {
+	bottom: -70px;
+}
 
+.carousel-indicators li {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	margin-right: 7px;
+}
 
+.carousel-inner {
+	height: 500px;
+	position: relative;
+}
 
+.carousel-item {
+	width: 1100px;
+	height: 520px;
+	position: relative;
+}
 
-@import "media";
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	bottom: 20px;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 400px;
+	height: 315px;
+	text-align: left;
+}
+.carousel-caption h5 {
+	font-size: 32px;
+	line-height: 18px;
+	color: #010101;
+	font-weight: 700;
+	z-index: 10;
+	margin-bottom: 20px;
+}
+
+.carousel-caption p {
+	width: 378px;
+	height: auto;
+	font-size: 20px;
+	line-height: 24px;
+	color: #313841;
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+
+.carousel-caption p:last-child {
+	width: 395px;
+	height: 101px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #555555;
+	font-family: "PT Sans";
+	font-weight: 400;
+}
+
+.iPad-white {
+	position: absolute;
+	right: 0;
+	width: 320px;
+	height: 470px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iPad-black {
+	width: 290px;
+	height: 380px;
+	background-color: #010101;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-yellow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-yellow img {
+	margin-right: 10px;
+}
+
+.brand-yellow {
+	color: #fcdb00;
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.social-buttons {
+	position: absolute;
+	bottom: 50px;
+	width: 200px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-appleinc:before {
+	content: "\eabe";
+	position: absolute;
+	font-size: 42px;
+	line-height: 20px;
+	color: #010101;
+	width: 50px;
+	height: 50px;
+}
+
+i {
+	width: 50px;
+	height: 50px;
+	font-size: 42px;
+	line-height: 20px;
+	color: #010101;
+}
