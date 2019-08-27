@@ -218,15 +218,6 @@ i {
 }
 
 // --- section class="features" ---
-.features {
-
-}
-
-.features-wrapper {
-	justify-content: center;
-	
-}
-
 .features-header {
 	max-width: 760px;
 	width: 100%;
@@ -256,12 +247,9 @@ i {
 	color: #313841;
 }
 
-.up-row {
+.up-line,
+.low-line {
 	margin-bottom: 80px;
-}
-
-.low-row {
-	margin-bottom: 160px;
 }
 
 .card {
@@ -280,10 +268,15 @@ i {
 	padding-left: 70px;
 }
 
-.card-title {
+.card-title a {
 	font-size: 22px;
 	line-height: 24px;
 	color: #010101;
+	text-decoration: none;
+}
+
+.features-link:hover {
+	color: #fcdb00;
 }
 
 .card-text {
@@ -292,4 +285,105 @@ i {
 	font-size: 16px;
 	line-height: 20px;
 	color: #898989;
+}
+
+// --- section class="footer" ---
+
+.footer {
+	background-color: #010101;
+	min-height: 700px;
+}
+
+.subscribe {
+	margin-top: 90px;
+}
+
+.subscribe-header {
+	max-width: 740px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 120px;
+}
+
+.subscribe-header .title {
+	font-size: 32px;
+	line-height: 32px;
+	color: #fcdb00;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.subscribe-header p {
+	font-size: 20px;
+	line-height: 24px;
+	color: #898989;
+	margin-bottom: 40px;
+}
+
+.form {
+	justify-content: center;
+	margin-bottom: 75px;
+}
+
+.btn-primary {
+	width: 126px;
+	height: 50px;
+	background-color: #fbdb00;
+	border: 2px solid #010101;
+}
+
+.form-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.form-control-row {
+	max-width: 578px;
+	width: 100%;
+	height: 50px;
+	background-color: #ffffff;
+	margin-right: 30px;
+	border-radius: 4px;
+	padding-left: 25px;
+	outline: none;
+	margin-bottom: 30px;
+}
+
+.social-items img {
+	max-width: 40px;
+}
+
+.social-items a + a {
+	margin-left: 30px;
+}
+
+.social-items a:hover {
+	transform: scale(1.2);
+	transition: all .2s;
+}
+
+.subscribe-widgets {
+	text-align: left;
+}
+
+.subscribe-widgets ul {
+	list-style: none;
+}
+
+.address {
+	width: 190px;
+	height: 110px;
+	line-height: 20px;
+	color: #ffffff;
+}
+
+.link-group a {
+	color: #fff;
+}
+
+.link-group a:hover {
+	color: #fbdb00;
+	transform: scale(1.2);
+	transition: all .2s;
+	text-decoration: none;
 }

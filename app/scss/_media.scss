@@ -6,10 +6,57 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
+	.navbar.navbar-light {
+		padding-top: 6px;
+		position: fixed;
+		height: 65px;
+		min-width: 67%;
+		margin: 0 auto;
+		background-color: #fcdb00;
+		z-index: 5;
+		opacity: .8;
+	}
+
+	.nav-item {
+		margin-right: 0;
+	}
+
+	.features-header {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	.card {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 55px;
+	}
+
+	.row.up-line {
+		margin-bottom: 0;
+	}
+
+	.link-group,
+	.widgets-address {
+		text-align: center;
+	}
+
+	.widgets-address {
+		margin-bottom: 12px;
+	}
+
+	.address {
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 576px) {
 
+	.navbar.navbar-light {
+		min-width: 93%;
+		margin: 0 auto;
+	}
 }
